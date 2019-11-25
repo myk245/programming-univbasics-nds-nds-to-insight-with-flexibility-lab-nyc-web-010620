@@ -96,6 +96,7 @@ def movies_with_directors_set(source)
   while index < index.length do
     dir_info_hash = source[index]
     director_name = dir_info_hash[:name]
+    director_movies = dir_info_hash[:movies]
   end
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
