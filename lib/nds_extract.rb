@@ -98,7 +98,10 @@ def movies_with_directors_set(source)
     director_name = dir_info_hash[:name]
     director_movies = dir_info_hash[:movies]
     aoa_movies_by_dir << movies_with_director_key(director_movies, director_movies)
+    index += 1
   end
+  aoa_movies_by_dir
+end
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
   # INPUT:
@@ -109,7 +112,7 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
-end
+
 
 # ----------------    End of Your Code Region --------------------
 # Don't edit the following code! Make the methods above work with this method
