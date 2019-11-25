@@ -90,6 +90,12 @@ end
 
 
 def movies_with_directors_set(source)
+  index = 0
+  aoa_movies_by_dir = []
+
+  while index < index.length do
+    dir_info_hash = source[index]
+  end
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
   # INPUT:
